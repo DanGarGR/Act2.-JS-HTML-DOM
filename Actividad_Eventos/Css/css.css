@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.game-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imagenes/pexels-photo-998641.jpeg'); /* Imagen local */
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+}
+
+#seccionDatos {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+#seccionDatos input {
+    width: 80%;
+    padding: 5px;
+}
+
+#seccionDatos button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#seccionDatos button:hover {
+    background-color: darkorange;
+}
